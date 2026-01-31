@@ -1,11 +1,14 @@
+require('dotenv').config();
 const express = require('express'); 
 
 const app = express();
-const port = 8000;
+
+const port = process.env.PORT || 8000;
 
 app.get('/', (req, res) => { 
   res.json({
-    message: 'Hello World: v3'
+    message: 'Hello World: v5', 
+    port: `App listening at http://45.76.145.81:${port}`, 
   }); 
 }); 
 

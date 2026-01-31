@@ -3,6 +3,7 @@
 .env
 npm-debug.log
 yarn-error.log
+
 # SSH Keys
 gh_deploy_key
 gh_deploy_key.pub

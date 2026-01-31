@@ -5,7 +5,7 @@ const port = 8000;
 
 app.get('/', (req, res) => { 
   res.json({
-    message: 'Hello World: v1'
+    message: 'Hello World: v2'
   }); 
 }); 
 
